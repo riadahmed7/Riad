@@ -1,0 +1,39 @@
+
+
+@Relation Animal
+
+
+ @ATTRIBUTE animal {lion,tuna,komododragon,raccoon,penguin,moose,panda,salmon,vulture,pig,cobra,bear,horse,peacock,coyote}
+ @ATTRIBUTE hair {true,false}
+ @ATTRIBUTE eggs {true,false}
+ @ATTRIBUTE land {true,false}
+ @ATTRIBUTE aquatic {true,false}
+ @ATTRIBUTE predator {true,false}
+ @ATTRIBUTE tail {true,false}
+ @ATTRIBUTE wings {true,false} 
+
+
+@DATA
+%
+% Instances (15):
+%
+lion,true,false,true,false,true,true,false
+tuna,false,true,false,true,false,true,false
+komododragon,false,true,true,true,true,true,false
+raccoon,true,false,true,false,false,true,false
+penguin,false,true,true,true,false,true,false
+moose,true,false,true,false,false,true,false
+panda,true,false,true,false,true,true,false
+salmon,false,true,false,true,false,true,false
+vulture,false,true,true,false,false,false,true
+pig,true,false,true,false,false,true,false
+cobra,false,true,true,false,true,false,false
+bear,true,false,true,false,true,true,false
+horse,true,false,true,false,false,true,false
+peacock,false,false,true,false,false,true,true
+coyote,true,false,true,false,true,true,false
+%
+%
+%
+
+
